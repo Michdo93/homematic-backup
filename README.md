@@ -7,7 +7,7 @@ I had the extreme case that my SD card was partially damaged and an `fsck` could
 
 ## How to use
 
-You need a second HomeMatic control centre.
+You need a second HomeMatic control centre or an [RaspberryMatic](https://github.com/jens-maus/RaspberryMatic) image which you can install inside a VM or on another SD card.
 
 1. Insert the SD card from the first control centre into this one using the USB card reader. This is necessary because HomeMatic uses a `crypttool` that accesses libraries that cannot be installed on a Linux system.
 2. Go to the WebUI --> Control Panel --> Security and activate SSH.
